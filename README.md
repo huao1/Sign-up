@@ -1,0 +1,1 @@
+A simple signup form created using HTML and CSS. The purpose is to pratice the different form controls learned recently.
