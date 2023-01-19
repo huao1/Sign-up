@@ -8,14 +8,53 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <img class="logo" src="logo.jpeg" alt="">
 
-        <ul class="header-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sign up</a></li>
-            <li><a href="#">Donate</a></li>
-        </ul>
+    <div class="container">
+        <img class="background" src="bk4.jpg" alt="">
+
+        <div class="content-container">
+
+            <p class="intro-text">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+            </p>
+
+            <h4>Sign up now to get started.</h4>
+
+            <div class="form-container">
+                <form action="post">
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+
+        </div>
+
     </div>
 </body>
 </html>
