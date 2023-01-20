@@ -15,37 +15,51 @@
         <div class="content-container">
 
             <p class="intro-text">
-                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                <br>
+                Sign up now to get started.
             </p>
 
-            <h4>Sign up now to get started.</h4>
+            <p>You <em>know</em> you want to.</p>
 
             <div class="form-container">
-                <form action="post">
+                <h3 class="neon">Let's do this!</h3>
+
+                <form method="post" action="#">
                     <div class="form-group">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name">
+                        <div class="input-label">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name">
+                        </div> 
+                        <div class="input-label">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name">
+                        </div>  
                     </div>
+
                     <div class="form-group">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name">
+                        <div class="input-label">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" required placeholder="abc123@gmail.com">
+                        </div>
+                        <div class="input-label">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" minlength="9" maxlength="9" placeholder="Only use numbers, like 2405551200">
+                        </div>
                     </div>
+
                     <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email">
+                        <div class="input-label">
+                            <label for="password">Password <span class="required">*</span></label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div class="input-label">
+                            <label for="confirm-password">Confirm Password <span class="required">*</span></label>
+                            <input type="password" id="confirm-password" required>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password">Confirm Password:</label>
-                        <input type="password" id="confirm-password">
-                    </div>
+
+
 
                     <button type="submit">Create Account</button>
                 </form>
